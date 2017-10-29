@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.sitemakers.sitemakers.HomeFragment">
+
+    <TextView
+        android:id="@+id/home_heading"
+        android:layout_marginTop="10dp"
+        android:text="WE CREATE AWESOME WEB SITES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/home_heading"
+        android:id="@+id/home_text"
+        android:layout_marginTop="28dp"
+        android:text="Attractive and user friendly websites are useful for both clients and viewers. We are really passionate about beautiful, user friendly and effective websites because an appropriate website represents who you are and what you do."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_device_image"
+        />
+
+</FrameLayout>

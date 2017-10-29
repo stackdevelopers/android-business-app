@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SiteMakers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text_detail"><![CDATA[Site Makers is the web development company engage in the development and maintenance of the attractive and responsive websites.\n \n We have made some of the award winning websites for our clients like Gogru.in, HCelebs.net, LostMonuments.com and many other. \n \n We have some of the most creative mind & imaginative people in our team who work round the clock to provide, improve & develop Web Design, E-Commerce, Social Networking, Animation & Graphics, Flash Intros, Database Management, Logo Creation, Brochures, Corporate ID, Letter Head, template, layout and other web enabled services. \n \n In my dealings you will find us capable, dependable, quick & positive in replying to your queries. \n \n We are available to our customers 24/7, that is 24 hours a day 7 days a week and reply to queries with in 2-3 hours. This is the only mode you can contact us and lets your projects done in the cheap and best possible manner.]]></string>
+</resources>

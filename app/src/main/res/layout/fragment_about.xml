@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.sitemakers.sitemakers.AboutFragment">
+
+    <ImageView
+        android:id="@+id/about_image"
+        android:src="@drawable/sitemakers_laptops"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="420px" />
+    
+    <TextView
+        android:id="@+id/about_heading"
+        android:paddingTop="@dimen/fab_margin"
+        android:layout_below="@+id/about_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Site Makers is the web development company engage in the.."
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:paddingTop="@dimen/fab_margin"
+        android:layout_below="@+id/about_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_detail"
+        />
+
+</RelativeLayout>
+
+</ScrollView>
