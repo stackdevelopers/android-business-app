@@ -99,7 +99,10 @@ public class MainActivity extends AppCompatActivity
             Fragment fragment = new ContactFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.container,fragment).commit();
-
+        } else if (id == R.id.nav_services) {
+            Fragment fragment = new ServicesFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.container,fragment).commit();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

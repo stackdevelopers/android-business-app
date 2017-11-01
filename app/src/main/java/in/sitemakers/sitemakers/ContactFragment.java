@@ -60,6 +60,7 @@ public class ContactFragment extends Fragment {
                 startActivity(Intent.createChooser(email, "Choose an Email client :"));
             }
         });
+        getActivity().setTitle("Contact us");
         return v;
     }
 

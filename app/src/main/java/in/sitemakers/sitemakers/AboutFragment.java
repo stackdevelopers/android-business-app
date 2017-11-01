@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Royalways on 10/24/2017.
+ * Created by Amit Gupta on 10/24/2017.
  */
 
 public class AboutFragment extends Fragment {
@@ -18,7 +18,7 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View v = inflater.inflate(R.layout.fragment_about,container,false);
-
+        getActivity().setTitle("About us");
         return v;
     }
 }

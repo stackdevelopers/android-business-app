@@ -9,14 +9,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * Created by Amit Gupta on 10/30/2017.
+ */
 
+public class ServicesFragment extends Fragment {
 
-public class HomeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_home,container,false);
-        getActivity().setTitle("SiteMakers");
+
+        View v = inflater.inflate(R.layout.fragment_services,container,false);
+        getActivity().setTitle("Services");
         return v;
     }
 }

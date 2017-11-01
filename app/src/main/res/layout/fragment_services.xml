@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="in.sitemakers.sitemakers.ServicesFragment">
+
+    <TextView
+        android:id="@+id/heading1_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Website Designs"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/heading1_text"
+        android:layout_below="@+id/heading1_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom website design includes creating a budget for your website that works with your online advertising goals. The way your site is designed is crucial because, your website is the core of your online advertising campaign. Your site design is unique and tailored to your business." />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/heading2_service"
+        android:layout_below="@+id/heading1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professional Website Designs"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/heading2_text"
+        android:layout_below="@+id/heading2_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professional custom website design starts with a through understanding of both your business and the goals you have for your site, now and in the future. Your unique image and your distinctive business proposition are represented to your potential customers by the best website design." />
+
+
+</RelativeLayout>

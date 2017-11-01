@@ -8,12 +8,16 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_about"
-            android:icon="@drawable/ic_folder_black_24dp"
+            android:icon="@drawable/ic_assignment_late_black_24dp"
             android:title="About Us" />
         <item
             android:id="@+id/nav_contact"
-            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
             android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="Services" />_
     </group>
 
     <item android:title="Communicate">
